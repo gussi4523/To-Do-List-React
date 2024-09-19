@@ -1,0 +1,57 @@
+.stack{
+  display: grid;
+  grid-column: 1;
+}
+
+.button {
+  padding: 20px;
+}
+
+.task-card{
+  display:grid;
+
+  grid-column: 1;
+  gap: 5px;
+
+  background-color: black;
+  height: auto;
+  width: 500px;
+  border-radius: 25px;
+}
+
+.add-button-card{
+  display: grid;
+  grid-column: 2;
+  position: relative;
+  left: 15px;
+  gap: 15px;
+  width: 500px;
+}
+
+.input-add{
+  width: auto;
+  position: relative;
+  left: 0%;
+}
+
+.add-button{
+  width: auto;
+  height: 50px;
+  position: relative;
+  left: 0%;
+
+  background-image: linear-gradient(to bottom right ,rgb(219, 69, 69) ,rgb(224, 23, 23));
+
+  box-shadow:0px 0px 25px rgb(27, 27, 27);
+
+  font-size: larger;
+
+  font-family: 'Gotham Pro black' ;
+  color: rgb(248, 238, 97);
+
+  border: 0px;
+  border-radius: 10px;
+}
+.task{
+  color: rgb(255, 255, 255);
+}
