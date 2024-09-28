@@ -16,8 +16,6 @@ export default function ToDoList(){
       setTasks(t =>[...t,newtask]);
        setNewTask("");
     }
-
-    
   }
 
   function deleteTask(index){

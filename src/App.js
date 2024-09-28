@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Todo_list from './custom_cop/Todo_list';
+import Person_List from './custom_cop/Keys/Keys_s' 
 
 function App() {
   return (
@@ -8,8 +9,7 @@ function App() {
       
       <header className="App-header">
 
-      <h1>ToDo</h1>
-      <Todo_list></Todo_list>
+      <Person_List></Person_List>
       </header>
     </div>
   );
