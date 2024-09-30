@@ -1,0 +1,51 @@
+
+.btn-list{
+    width: 120px;
+    height: 60px;
+
+    font-size: large;
+    font-family: 'Gotham Pro Black';
+
+    position: relative;
+    top: 25%;
+
+    border: 0px;
+    border-radius: 10px;
+
+    background-image: linear-gradient(62deg,#FBAB7E,#F7CE68);
+
+    
+}
+
+.btn-list::after{
+
+    content: "";
+
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    top: 0px;
+    
+    border-radius: 10px;
+
+    transform: translate(-5%,-5%);
+    z-index: -1;
+    left: 0px;
+
+    background-image: linear-gradient(62deg,#FBAB7E,#F7CE68);
+
+    filter: blur(16px);
+}
+
+.btn-arrow{
+    position: relative;
+    transform: rotate(90deg);
+}
+
+.ul-list{
+    width: 120px;
+    height: 60px;
+
+    position: relative;
+    top: 25%;
+}

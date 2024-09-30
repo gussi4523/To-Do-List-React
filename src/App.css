@@ -1,6 +1,6 @@
-/*.App {
+.App {
   text-align: center;
-}*/
+}/*
 
 .App-logo {
   height: 40vmin;
@@ -16,18 +16,11 @@
 .App-button{
   width: 100px;
   height: 50px;
-}
+}*/
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  width: 1000%;
+}/*
 
 .App-link {
   color: #61dafb;
@@ -40,4 +33,40 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+body{
+  display: flexbox;
+}
+
+.Person-list{
+  position: absolute;
+  top: 30%;
+  scale: 1.2;
+
+  width: 300px;
+  min-height: 190px;
+  height: auto;
+
+  background-image: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    /*backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);*/
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 8px 32px  0 rgba(0, 0, 0, 0.37);
+    z-index: 1;
+}
+
+.pot-list-choose{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.list-center{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
 }
